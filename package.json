@@ -1,0 +1,36 @@
+{
+  "name": "caca_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "wpp": "node -r dotenv/config ./scripts/wpp.js",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.8",
+    "@vercel/postgres": "^0.5.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "next": "14.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
